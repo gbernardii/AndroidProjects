@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sistema de Compras"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"/>
+
+    <CheckBox
+        android:id="@+id/cbArroz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Arroz 1kg - R$2,69"
+        android:layout_marginBottom="10dp"/>
+
+    <CheckBox
+        android:id="@+id/cbLeite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Leite Longa Vida - R$2,70"
+        android:layout_marginBottom="10dp"/>
+
+    <CheckBox
+        android:id="@+id/cbCarne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Carne Friboi - R$16,70"
+        android:layout_marginBottom="10dp"/>
+
+    <CheckBox
+        android:id="@+id/cbFeijao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Feijão Carioquinha 1kg - R$3,38"
+        android:layout_marginBottom="10dp"/>
+
+    <CheckBox
+        android:id="@+id/cbCoca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Refrigerante Coca-Cola 2L - R$3,00"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/btnCalcular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calcular Total"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/tvTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total: R$0,00"
+        android:textSize="18sp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
